@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #0f0f0f;
+}
+ul{
+    padding: 0px!important;
+    margin: 0;
+}
+h6{
+    margin-bottom: 30px;
+}
+img:hover{
+    opacity: .4;
+    cursor: pointer;
+    transition: all .35s ease-out;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.menu{
+    width: 100%;
+    background-color: #0f0f0f;
+    height: 66px;
+}
+.logo{
+    float: left;
+    padding: 14px;
+    width: 71%;
+}
+.redes-sociais ul li{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+.redes-sociais{
+    width: 25%;
+    float: right;
+    margin-top: 15px;
+}
+.header-2{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    height: 76px;
+    background-color: #141313;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-urls{
+    margin: 0 auto;
+    height: 80px;
+    background-color: #141313;
+    border-bottom: 4px solid #efefef;
+}
+.nav ul{
+    margin: 0 auto;
+    height: 50px;
+}
+.nav ul li {
+    color: #8b8b8b;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 50px;
+}
+.nav ul li:hover{
+    border-bottom: 4px solid #3dadff;
+}
+.nav ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav ul li a:hover{
+    color: #3dadff;
+}
+.nav{
+    width: 60%;
+}
+.busca{
+    width: 35%;
+    float: right;
+}
+.busca input {
+    background-color: #efefef;
+    background-image: url('../img/find.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 30px;
+    margin-top: -22px;
+    margin-right: 40%;
+    border-style: double;
+    text-align: center;
+    border-radius: 20px;
+}
+.carousel{
+    position: relative;
+    height: 570px;
+}
+.carousel-inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+.carousel-indicators{
+    justify-content: flex-end;
+}
+.carousel-caption{
+    font-family: 'Quicksand';
+    left: 10%;
+    text-align: start;
+    font-size: large;
+}
+.carousel-control-next, .carousel-control-prev {
+    background-image: none;
+}
+.texto{
+    font-family: Quicksand;
+    color: #efefef;
+}
+.texto-h1{
+    display: flex;
+    height: 69px;
+}
+.block-line-1{
+    text-align: right;
+    width: 720px;
+    margin-top: -20px;
+    margin-left: 260px;
+    opacity: 10;
+}
+.slider-lancamento{
+    position: relative;
+    font-family: 'Quicksand';
+    font-size: 22px;
+    color: #efefef;
+    list-style: none;
+    display:flex;
+    justify-content:space-between;
+    height: 526px;
+}
+.lance1{
+    width: 310px;
+}
+.lance1 h3{
+    left: 0;
+}
+.lance2{
+    width: 310px;
+}
+.lance2 h3{
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.lance3{
+    width: 310px;
+}
+.lance3 h3{
+    right: 0;
+}
+.block-line-2{
+    width: 825px;
+    margin-left: 155;
+}
+.noticia-destaque{
+    list-style: none;
+    margin-bottom: 40px;
+}
+.noticias-espaco{
+    height: 1143px;
+}
+.noticia-1{
+    position: relative;
+}
+.info-noticia{
+    position: absolute;
+    margin-left: 20px;
+    bottom: 30px;
+}
+.noticias{
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.noticias-img{
+    position: relative;
+}
+#smite{
+    width: 300px;
+}
+.info-noticias{
+    position: absolute;
+    font-size: 20px;
+    left: 15px;
+    bottom: 0;
+}
+.info-etiqueta{
+    position: absolute;
+    bottom: 55px;
+    left: 16px;
+    background-color: green;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 72px;
+    text-align: center;
+}
+.info-etiqueta:hover{
+    color: #efefef;
+}
+.NOT-1{
+    bottom: 68px;
+    left: 22px;
+}
+.NOT-2{
+    bottom: 55px;
+    left: 15px;
+}
+.NOT-3{
+    bottom: 80px;
+}
+.NOT-4{
+    bottom: 80px;
+    left: 16px;
+}
+.videos{
+    background-color: #ff002d;
+    bottom: 148px;
+    left: 220px;
+}
+.block-line-3{
+    width: 840px;
+    margin-left: 140px;
+}
+.video-1{
+    margin-bottom: 40px;
+}
+.video img:hover{
+    opacity: 10;
+    cursor: default;
+}
+.video-destaque{
+    position: relative;
+}
+.play{
+    width: 48px;
+    height: 48px;
+    font-size: 0px;
+    border: none;
+    position: absolute;
+    transform: translate(-380%, 150%);
+    background-color: transparent;
+    background-image: url(../img/playGOG.png);
+}
+.playBig{
+    width: 96px;
+    height: 96px;
+    font-size: 0px;
+    border: none;
+    position: absolute;
+    transform: translate(-550%, 250%);
+    background-color: transparent;
+    background-image: url(../img/playBIG.png);
+}
+.NOT-page{
+    display: flex;
+    align-items: center;
+}
+.header-3{
+    background-color: #050505;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 220px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.info-3{
+    padding: 20px 0px;
+    position: absolute;
+    display: flex;
+}
+.sociais-3{
+    width: 120px;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    top: 85;
+}
+.copy-3{
+    position: absolute;
+    display: flex;
+    top: 130;
+    font-family: 'Quicksand';
+    color: #efefef;
+}
+#lancamento{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto-lancamento{
+    display: block;
+    font-family: Roboto;
+    color: #efefef;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 880px;
+}
+.video-lancamento{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-VejaMais{
+    width: 100px;
+}
+.btn-VejaMais{
+    height: 36px;
+    width: 100px;
+    border-radius: 16px;
+    border-color: white;
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    transition-duration: 1.0s;
+}
+.btn-VejaMais:hover{
+    background-color:#3dadff;
+}
+#paragraph{
+    margin-top: -25px;
+    margin-left: 90%;
+    position: absolute;
+    color: #efefef;
+}
+.block-line-4{
+    width: 700px;
+    margin-left: 275px;
+}
+.play2{
+    width: 48px;
+    height: 48px;
+    font-size: 0px;
+    border: none;
+    position: absolute;
+    transform: translate(-380%, 150%);
+    background-color: transparent;
+    background-image: url(./img/farcry.png);
+}
+
+

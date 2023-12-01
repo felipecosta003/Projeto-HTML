@@ -1,0 +1,5 @@
+function playVideo(){
+        
+    alert("Olá");
+
+}
